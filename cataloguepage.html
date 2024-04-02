@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue - Online Book Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #555;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .catalog {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-gap: 20px;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .book {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .book img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .book h3 {
+            margin-top: 0;
+        }
+
+        .book p {
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Catalogue - Online Book Store</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Catalogue</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="catalog">
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/81BE7eeKzAL._AC_UF1000,1000_QL80_.jpg" alt="Book 1">
+            <h3>RICH DAD POOR DAD</h3>
+            <p>Author:Robert T.Kiyosaki</p>
+            <p>Price: Rs 600</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="book">
+            <img src="https://cdn.kobo.com/book-images/a82c1eed-90a8-4819-8e61-9e15c8685356/1200/1200/False/the-hidden-hindu-2-1.jpg" alt="Book 2">
+            <h3>THE HIDDEN HINDU</h3>
+            <p>Author: AKASH GUPTA</p>
+            <p>Price: Rs 500</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/71v-xl+iayL._AC_UF1000,1000_QL80_.jpg" alt="Book 3">
+            <h3>HINDU MYTHOLOGY</h3>
+            <p>Author:MATT CLAYTON</p>
+            <p>Price: Rs 500</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="book">
+            <img src="https://qph.cf2.quoracdn.net/main-qimg-b36d5d394fe8501cf193cce79cb7abd8-pjlq" alt="Book 4">
+            <h3>KALKI</h3>
+            <p>Author: KEVIN MISSAL </p>
+            <p>Price: Rs 500</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="book">
+            <img src="https://cdn.kobo.com/book-images/2ca5ad41-977b-413e-bb07-42af9af97998/1200/1200/False/ancient-indian-history-1.jpg" alt="Book 5">
+            <h3>ANCIENT INDIAN HISTORY</h3>
+            <p>Author: DR SUNIL SAXENA</p>
+            <p>Price: Rs 500</p>
+            <button>Add to Cart</button>
+        </div>
+        
+        
+        
+        
+        
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Online Book Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
